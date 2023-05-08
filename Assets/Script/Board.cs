@@ -13,6 +13,7 @@ public class Board : MonoBehaviour
             for (int j = 0; j < 8; j++)
             {
                 Instantiate(_cell, new Vector3(i * 1.1f, -0.1f, j * 1.1f), Quaternion.identity);
+                
             }
         }
     }
